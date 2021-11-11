@@ -1,0 +1,52 @@
+body{
+    background-color: #666;
+    font-family: arial,sans-serif;
+}
+ol{
+    text-align: center;
+    margin-block-start: 2em;
+}
+ol li{
+    display: inline-block;
+    padding: 1em;
+}
+ol li a{
+    color: white;
+}
+.action{
+    font-weight: bold;
+    text-decoration: none;
+}
+div{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
+    
+}
+ul li {
+    width: 11em;
+    height: 11em;
+    background-color: #ffc;
+    text-decoration: none;
+    display: inline-block;
+    margin-block-start: 3em;
+    padding: 1em;
+    margin: 1.5em;
+
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li h2{
+    font-weight: normal;
+    font-size: 1em;
+}
+ul li p{
+    font-size: 1em;
+    margin-block-start: -1em;
+    
+}
