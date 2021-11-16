@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    width: 100%;
+    height: 100%;
+}
+.srednji
+{
+    position: absolute;
+    left: 20%;
+    width: 60%;
+    height: 100%;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+.stars
+{
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid lightgrey;
+ 
+}
+.krugstars
+{
+    border-radius: 50%;
+    background-color: rgb(189, 228, 228);
+    width: 155px;
+    height: 155px;
+    position: absolute;
+    left: 0;
+    top: 50;
+}
+.tekst1
+{
+    position: absolute;
+    width: 72%;
+    right: 20;
+    top: 40;
+
+}
+.catalizer
+{
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid lightgrey;
+}
+.krugcatalizer
+{
+    border-radius: 50%;
+    background-color: rgb(189, 228, 228);
+    width: 155px;
+    height: 155px;
+    position: absolute;
+    right: 0;
+    top: 300;
+}
+.tekst2
+{
+    position: absolute;
+    width: 72%;
+    left: 0;
+    top: 290;
+}
+.blows
+{
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid lightgrey;
+}
+.krugblows
+{
+    border-radius: 50%;
+    background-color: rgb(189, 228, 228);
+    width: 155px;
+    height: 155px;
+    position: absolute;
+    top: 550;
+}
+.tekst3
+{
+    position: absolute;
+    width: 72%;
+    right: 20;
+    top: 550;
+}
+.clock
+{
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid lightgrey;
+}
+.krugclock
+{
+    border-radius: 50%;
+    background-color: rgb(189, 228, 228);
+    width: 155px;
+    height: 155px;
+    position: absolute;
+    right: 0;
+    top: 800;
+}
+.tekst4
+{
+    position: absolute;
+    width: 72%;
+    left: 0;
+    top: 790;
+
+}
+.coins
+{
+    width: 100%;
+    height: 250px;
+}
+.krugcoins
+{
+    border-radius: 50%;
+    background-color: rgb(189, 228, 228);
+    width: 155px;
+    height: 155px;
+    position: absolute;
+    top: 1050;
+}
+.tekst5
+{
+    position: absolute;
+    width: 72%;
+    right: 20;
+    top: 1050;
+
+}
+.btn
+{
+    color: white;
+    background-color: rgb(54, 54, 252);
+    margin-left: 45%;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+}

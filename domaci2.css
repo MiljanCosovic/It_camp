@@ -1,0 +1,45 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+table
+{
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: sans-serif;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 8px;
+    overflow: hidden;
+}
+tr
+{
+    height: 50px;
+}
+tr:hover
+{
+    background-color: rgb(236, 179, 92);
+    color: black;
+}
+thead
+{
+    border-radius: 5%;
+    background-color: #04AA6D;
+    color: white;
+    font-weight: bold;
+}
+.druga
+{
+    border-bottom:1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    background-color: #f2f2f2;
+    color: #04AA6D;
+    font-weight: bold;
+}
+.poslednja
+{
+    border-bottom: 3px solid #04AA6D;
+}
