@@ -2,11 +2,11 @@
 
 
     .header{
-        width: 575px;
+        width: 100%;
         height: 80px;
     }
     .baker{
-        width: 575px;
+        width: 100%;
         background-size: 210%;
     }
 
@@ -14,14 +14,14 @@
 
 
     .gallery{
-        width: 575px;
+        width: 100%;
         height: 1400px;
     }
     .container-gallery{
-        min-width: 575px;
+        min-width: 100%;
     }
     .gallery-tekst{
-        width: 565px;
+        width: 100%;
         padding: 0;
         text-align: center;
     }
@@ -37,7 +37,7 @@
         width: 400px;
     }
     .gallery-photo{
-        width:575px;
+        width:100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -66,47 +66,41 @@
         margin-top: 40px;
     }
 
-
-
-
     .meni{
-        width: 575px;
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr;
         height: 2061px;
     }
     .meni-itema img{
-        width: 575px;
+        width: 100%;
         height: 687px;
     }
     .meni-itemb{
-        width: 575px;
+        width: 100%;
         height: 687px;
     }
     .meni-itemc img{
-        width: 575px;
+        width: 100%;
         height: 687px;
     }
 
 
     .empty{
         height: 60px;
-        width: 575px;
+        width: 100%;
     }
-
-
-
-    
+ 
     .coffe{
         height: 679px;
-        width: 575px;
+        width: 100%;
     }
     .coffe-tekst{
-        width: 575px;
+        width: 100%;
         text-align: center;
     }
     .coffe-info{
-        width: 575px;
+        width: 100%;
     }
     .coffe-info p{
         margin:0;
@@ -114,7 +108,7 @@
 
 
     .prazan{
-        width: 575px;
+        width: 100%;
     }
 
 
@@ -122,10 +116,10 @@
     .tekst{
         height: auto;
         background-color:#dfcbab; 
-        width: 575px;
+        width: 100%;
     }
     .text-container{
-        width: 575px;
+        width: 100%;
         height: auto;
         margin: 0 auto;
         display: grid;
@@ -133,7 +127,7 @@
     }
     .left-slika{
         height: 500px;
-        width: 575px;
+        width: 100%;
     }
     .left-slika img{
         width: 345px;
@@ -167,7 +161,7 @@
         height: 2061px;
         display: grid;
         grid-template-columns: 1fr;
-        width: 575px;
+        width: 100%;
     }
     .p1{
         font-size: 19px;
@@ -187,7 +181,113 @@
 
 
     .footer{
-        width: 575px;
+        width: 100%;
         padding: 0;
     }
 }
+
+@media screen and (max-width: 415px){
+    .header{
+        width: 100%;
+    }
+
+
+    .baker{
+        width: 100%;
+        background-size: 450%;
+    }
+    .baker img{
+        margin-left: 110px;
+    }
+    .baker h1{
+        font-size: 86px;
+    }
+
+
+
+    .gallery{
+        width: 100%;
+    }
+    .container-gallery{
+        min-width: 100%;
+    }
+    .gallery-tekst{
+        width: 100%;
+    }
+    .gallery-tekst h2{
+        font-size: 1.9rem;
+        width: 350px;
+        
+    }
+    .gallery-tekst p{
+        font-size: 19px;  
+        width: 350px;
+    }
+    .gallery-cake-left img{
+        width: 350px;
+        margin-top: 15px;
+    }
+    .tekst-right p{
+        font-size: 19px;
+        margin-top: -90px;
+        width: 350px;
+    }
+    .photo-right img{
+        width: 350px;
+        height: 326.5px;
+        margin-top: 40px;
+    }
+
+
+    .meni{
+        width: 100%;
+    }
+    .meni-itema img{
+        width: 100%;
+    }
+    .meni-itemb{
+        width: 100%;
+    }
+    .meni-itemc img{
+        width: 100%;
+    }
+
+
+
+    .empty{
+        width: 100%;
+    }
+ 
+    .coffe{
+        width: 100%;
+    }
+    .coffe-tekst{
+        width: 100%;
+    }
+    .coffe-info{
+        width: 100%;
+    }
+
+    .prazan{
+        width: 100%;
+    }
+    .tekst{
+        width: 100%;
+    }
+    .text-container{
+        width: 100%;
+    }
+    .left-slika{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+}
+
+
+
+
