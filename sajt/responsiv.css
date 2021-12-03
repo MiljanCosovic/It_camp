@@ -7,7 +7,8 @@
     }
     .baker{
         width: 100%;
-        background-size: 210%;
+        background-size: cover;
+        background-repeat: no-repeat
     }
 
 
@@ -186,7 +187,7 @@
     }
 }
 
-@media screen and (max-width: 615px){
+@media screen and (max-width: 415px){
     .header{
         width: 100%;
     }

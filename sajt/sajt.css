@@ -17,7 +17,8 @@ body{
     height: 780px;
     padding: 0;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(cake.png);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     overflow: visible;
     display: flex;
     justify-content: center;
