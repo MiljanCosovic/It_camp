@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frm{
+    width: 800px;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 10%;
+    border: 1px solid black;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header h1{
+    color: white;
+}
+.main{
+    width: 100%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.veliki{
+    width: 305px;
+    height: 38px;
+    margin-bottom: 10px;
+}
+.mali{
+    width: 100px;
+    height: 38px;
+    margin-bottom: 10px;
+}
+.m{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Vmali{
+    width: 190px;
+    height: 38px;
+}
+.pol{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    justify-content:space-between;
+}
+.pl{
+    display: flex;
+    flex-direction: row;
+}
+.pl p{
+    margin-left: 10px;
+}
+.pr p{
+    margin-left: 10px;
+}
+.pr{
+    display: flex;
+    flex-direction: row;
+}
+.br{
+    display: flex;
+    flex-direction: column;
+}
+.robot{
+    width: 300px;
+    height: 74px;
+    background: #f9f9f9;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.robotl{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.check{
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+}
+.robotl p{
+    margin-left: 10px;
+    display: flex;
+}
+.robotr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+}
+.robotr img{
+    width:28px;
+    height: 28px;
+}
+.bot{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+
+}
+.c{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.c input{
+    width: 14px;
+    height: 14px;
+}
+.c p{
+    margin-left: 3px;
+}
+.btn{
+    width:98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.dugme{
+    width: 312px;
+    height: 40px;
+    border-radius: 70px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+.dugme:hover{
+    background-color: rgb(51, 49, 49);
+}
