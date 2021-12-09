@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dugme
+{
+    margin-top: 20px;
+    height: 100px;
+    width: 300px;
+    color: white;
+    background-color: yellowgreen;
+    border: 1px solid yellowgreen;
+}
+ul{
+   
+    list-style-type: none;
+    display: block;
+    width: 300px;
+    background-color: thistle;
+    display: none;
+    
+}
+.sadrzaj:hover ul{
+    display: block;
+}
+li{
+    padding: 20px;
+    cursor: pointer;
+}
+li:hover{
+    background-color: chartreuse;
+}
