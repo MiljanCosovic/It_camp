@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item1{
+    grid-area: header;
+}
+.item2{
+    grid-area: navigation;
+}
+.item3{
+    grid-area: left;
+}
+.item4{
+    grid-area: main;
+}
+.item5{
+    grid-area: right;
+}
+.item6{
+    grid-area: footer;
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    grid-gap: 1vh;
+    grid-template-areas: 
+    'header header header'
+    'navigation navigation navigation'
+    'left main right'
+    'footer footer footer';
+}
+.item1{
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.item2{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+}
+    
+
+.item3{
+    height: 79vh;
+    width: 19vw;
+    display: grid;
+    grid-template-rows: 29vh 49vh;
+    grid-gap: 1vh;
+}
+.lt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+}
+
+.lb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+
+}
+
+.item4{
+    height: 79vh;
+    width: 59vw;
+    display: grid;
+    grid-gap: 1vh;
+    grid-template-rows: 14vh 49vh 14vh;
+
+}
+.mt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+.mm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+.item5{
+    height: 79vh;
+    width: 21vw;
+    display: grid;
+    grid-template-rows: 14vh 14vh 49vh;
+    grid-gap: 1vh;
+}
+.rt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.rm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.rb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+.item6{
+    height: 4vh;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
