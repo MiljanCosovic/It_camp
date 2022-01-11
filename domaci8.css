@@ -68,10 +68,15 @@ li{
         margin-left: 65px;
         display: none;
         color: white;
+        width: 100%;
 
     }
     li{
         padding-right: 20px;
+        width: 100%;
+    }
+    ul{
+        width: 100%;
     }
     .nav:hover .navigation{
         display: block;
