@@ -5,3 +5,20 @@ for(var i=0;i<niz.length;i++)
     niz[i]=3*niz[i];
 }
 console.log("Niz pomnozen sa 3 je: " +niz);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
