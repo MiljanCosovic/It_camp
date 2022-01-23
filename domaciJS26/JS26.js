@@ -32,6 +32,8 @@ function tekst(){
 
 }
 
+
+
 tekst();
 
 
