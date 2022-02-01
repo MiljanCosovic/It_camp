@@ -1,14 +1,33 @@
-function niz()
-{
-    data=[3,24,54,123,32,64];
-    var b=0;
+// function niz()
+// {
+//     data=[3,24,54,123,32,64];
+//     var b=0;
 
-    for(i=0;i<data.length;i++)
+//     for(i=0;i<data.length;i++)
+//     {
+//         b+=data[i];
+//     }
+//     c=b/data.length;
+//     console.log(c);
+// }
+
+// niz();
+
+
+
+
+function powersOfTwo(n){
+    pomNiz=[];
+    for(i=0;i<=n;i++)
     {
-        b+=data[i];
+        console.log(2 ** i);
+        pomNiz.push(2**i);
     }
-    c=b/data.length;
-    console.log(c);
+
+    return pomNiz;
 }
 
-niz();
+
+
+rez =powersOfTwo(10);
+console.log(rez);
