@@ -4,4 +4,4 @@ var student = {
     rollno : 12
 };
 
-console.log(student.name, student.sclass,student.rollno)
+console.log(student.name, student.sclass, student.rollno);
